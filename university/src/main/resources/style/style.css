@@ -1,0 +1,76 @@
+.root {
+    -fx-background-color: #EBF3E8;
+}
+
+.login .button {
+	-fx-background-color: #86A789;
+	-fx-text-fill: #FFFFFF;
+}
+
+
+.login .button:hover {
+	-fx-background-color: #445D48;
+	-fx-cursor: hand;
+}
+
+
+.button {
+	-fx-background-color: #86A789;
+	-fx-text-fill: #FFFFFF;
+	-fx-border-radius: 5;
+	-fx-padding: 5 14;
+	-fx-border-color: #86A789;
+}
+
+.button:hover {
+	-fx-background-color: #445D48;
+	-fx-border-color: #445D48;
+	-fx-cursor: hand;
+}
+
+.table .filler {
+	-fx-background-color: #E7B10A;
+}
+
+.table .table-row-cell {
+	-fx-background-color: #161B22;
+	-fx-border-color: #30363D;
+	-fx-table-cell-border-color: #30363D;
+}
+
+.table .table-row-cell:odd {
+	-fx-background-color: #DEDEA7;
+}
+
+.table .table-row-cell:even {
+	-fx-background-color: #F1F0E8;
+}
+
+.table .table-row-cell:empty {
+	-fx-background-color: #FFFFFF;
+}
+
+.table .table-row-cell .table-cell {
+	-fx-text-fill: #000000;
+}
+
+.table .column-header {
+	-fx-background-color: #E7B10A;
+}
+
+.table .column-header-background {
+	-fx-background-color: #E7B10A;
+}
+
+.table .column-header .label {
+	-fx-text-fill: #000000;
+	-fx-background-color: #E7B10A;
+}
+
+.table:focused .table-row-cell:focused {
+	-fx-background-color: #FFCACC;
+}
+
+.table:focused .table-row-cell:selected {
+	-fx-background-color: #FFCACC;
+}
