@@ -8,10 +8,10 @@ services:
       --init-file /data/application/init.sql
     environment:
       MYSQL_ROOT_USER: javafxTest
-      MYSQL_ROOT_PASSWORD: changeme
-      MYSQL_DATABASE: javafxTest
+      MYSQL_ROOT_PASSWORD: 0000
+      MYSQL_DATABASE: mydb
       MYSQL_USER: javafxTest
-      MYSQL_PASSWORD: changeme
+      MYSQL_PASSWORD: 0000
     volumes:
       - ${PWD}/mariadb:/var/lib/mysql
       - ./init.sql:/data/application/init.sql
